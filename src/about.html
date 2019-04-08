@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Cozy Corner</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
+		<script defer src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+		<script defer src="https://unpkg.com/bootstrap@4.1.0/dist/js/bootstrap.min.js"></script>
+		<link href="https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!--<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">-->
+		<link rel="stylesheet" href="css/index.min.css" type="text/css">
+		<script defer src="js/script.js"></script>
+	</head>
+
+	<body>
+		<header class="bg-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%">
+							<a class="navbar-brand h1 mb-0" href="index.html"><i class="fas fa-fw fa-bookmark text-info"></i>Cozy Corner</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+								<i class="fas fa-bars"></i>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarContent">
+								<ul class="navbar-nav mx-auto">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Home</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="about.html#contact">Contact</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="catalogue.html">Browse</a>
+									</li>
+								</ul>
+								<form class="form-inline" action="catalogue.html" method="get">
+									<div class="input-group">
+										<input class="form-control" type="search" placeholder="Search Catalogue" aria-label="Search" name="q">
+										<div class="input-group-append">
+											<button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i><span class="sr-only">(search catalogue)</span></button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="container-fluid">
+			<div class="row flex-column-reverse flex-md-row" id="about">
+				<div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center p-4">
+					<div class="jumbotron m-0">
+						<h2 class="display-4">About Us</h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+							ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+							augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
+							claritatem.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 bg-primary text-light d-flex flex-column justify-content-center align-items-center position-relative p-4 p-md-0 overflow-hidden">
+					<i class="fas fa-bookmark bg-icon bg-icon-image bg-icon-image-grayscale position-absolute" data-image="https://source.unsplash.com/WG5eneHdE18"></i>
+					<div class="content-wrapper z-index-1">
+						<h2 class="display-1 text-center">Cozy Corner</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="contact">
+				<div class="col-12 col-md-6 bg-primary text-light d-flex flex-column justify-content-center align-items-center position-relative p-4 p-md-0 overflow-hidden">
+					<i class="fas fa-envelope-open-text bg-icon position-absolute"></i>
+					<div class="content-wrapper z-index-1">
+						<h2 class="display-1 text-center">Contact Us</h2>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center p-4">
+					<form>
+						<div class="form-row">
+							<div class="input-group my-2">
+								<div class="input-group-prepend">
+									<i class="input-group-text fas fa-user d-flex justify-content-center align-items-center"></i>
+								</div>
+								<input type="text" class="form-control" placeholder="Name">
+							</div>
+							<div class="input-group my-2">
+								<div class="input-group-prepend">
+									<i class="input-group-text fas fa-at d-flex justify-content-center align-items-center"></i>
+								</div>
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="input-group my-2">
+								<div class="input-group-prepend">
+									<i class="input-group-text fas fa-comment d-flex justify-content-center align-items-center"></i>
+								</div>
+								<textarea class="form-control" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="form-row my-4 d-flex justify-content-center align-items-center">
+							<button class="btn btn-info" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="bg-dark text-light pt-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<p>Made with <a href="https://getbootstrap.com"><i class="fab fa-lg fa-bootstrap"></i><span class="sr-only">(Bootstrap)</span></a>, icons from <a href="https://fontawesome.com"><i class="fab fa-lg fa-font-awesome"></i><span class="sr-only">(Font Awesome)</span></a>,
+							and images from <a href="https://unsplash.com">Unsplash</a>.</p>
+						<p>&copy; 2018. <a href="https://aetherix.net">Torick J Davis</a>. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
