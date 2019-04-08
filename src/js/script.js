@@ -1,4 +1,6 @@
 // Custom JS here
+/* global $ */
+
 const mediumBreakPoint = 768; // bootstrap md break point
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -12,4 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   }
+
+  $(function () {$('[data-toggle="tooltip"]').tooltip()});
 });

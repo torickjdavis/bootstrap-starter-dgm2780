@@ -19,7 +19,7 @@ Pick out another CSS component of your choice, this must not be related to your 
 [x] This criterion is linked to a Learning Outcome JS Component I (*Navbar*)
 Showcase your ability to read the documentation and properly implement a bootstrap component that utilizes some JS to accomplish a goal in your layout. This does not count for your CSS components.
 
-[ ] This criterion is linked to a Learning Outcome JS Component II
+[x] This criterion is linked to a Learning Outcome JS Component II (*Browse Card Tooltips*)
 Showcase your ability to read the documentation and properly implement a bootstrap component that utilizes some JS to accomplish a goal in your layout. This does not count for your CSS components.
 
 [x] This criterion is linked to a Learning Outcome Layout matches the website you picked
