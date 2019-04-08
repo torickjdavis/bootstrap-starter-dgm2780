@@ -11,6 +11,12 @@
   overflow: hidden;
 }
 
+.card-deck {
+  display: grid;
+  grid-template-columns: 1;
+  grid-gap: 1rem;
+}
+
 @media @greater-than-mobile {
   .bg-icon {
     font-size: 32rem;
@@ -19,6 +25,20 @@
       -webkit-background-clip: text;
       background-clip: text;
       opacity: 0.25;
+
+      &-grayscale {
+        filter: grayscale(1.0);
+      }
     }
+  }
+
+  .card-deck {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media @greater-than-tablet {
+  .card-deck {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
