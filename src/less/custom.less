@@ -1,0 +1,24 @@
+.bg-icon {
+    font-size: 14rem;
+    color: rgba(0,0,0,0.2);
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.overflow-hidden { // boostrap's utility wasn't working
+  overflow: hidden;
+}
+
+@media @greater-than-mobile {
+  .bg-icon {
+    font-size: 32rem;
+
+    &-image {
+      -webkit-background-clip: text;
+      background-clip: text;
+      opacity: 0.25;
+    }
+  }
+}
